@@ -15,9 +15,8 @@ end
 post"/send" do
 Pony.mail(to:"infosheedo@gmail.com",
 from:params[:email],
-body: "#{params[:name]}
-#{params[:message]}"
-subject:"formulario de contcto",
+body: "#{params[:name]} #{params[:message]}",
+subject:"formulario de contcato",
 via: :smtp, via_options:{adress:"smtp.gmail",
   port:587,
   enable_starttls_auto:true,
