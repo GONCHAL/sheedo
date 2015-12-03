@@ -51,6 +51,7 @@
     </head>
 
     <body id="body">
+			<%= I18n.t("hello") %>
 	    <!--
 	    Start Preloader
 	    ==================================== -->
@@ -149,37 +150,48 @@
 				    <img src="Image/gobox.png" width="500" height="330" alt="equipo"> </div>
                   <!-- Contact Details -->
 
+									<% if flash[:notice] %>
+									<p>
+										<%= flash[:notice] %>
+									</p>
+									<% end %>
 
 									<div class="contact-form col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-										<form id="contact-form" method="post" action="/send">
+													<form id="contact-form" method="post" action="/send" role="form">
 
-											<div class="form-group">
+														<div class="form-group">
+															<input type="text" placeholder="Nombre" class="form-control" name="name" id="name" required="required">
+														</div>
 
-												<input type="text" required="required" autofocus="autofocus" placeholder="Nombre" class="form-control" name="name" id="name">
-											</div>
+														<div class="form-group">
+															<input type="email" placeholder="Email" class="form-control" name="email" id="email" required="required">
+														</div>
 
-											<div class="form-group">
-												<input type="email" required="required" placeholder="Tu correo" class="form-control" name="email" id="email">
-											</div>
+														<div class="form-group">
+															<input type="Asunto" placeholder="Asunto" class="form-control" name="asunto" id="Asunto" required="required">
+														</div>
 
-											<div class="form-group">
-												<textarea rows="6" required="required" placeholder="¿Qué nos quieres decir?" class="form-control" name="message" id="message"></textarea>
-											</div>
+														<div class="form-group">
+															<textarea rows="6" placeholder="Mensaje" class="form-control" name="message" id="message" required="required"></textarea>
+														</div>
 
-											<div id="mail-success" class="success">
-												Gracias. Nos pondremos en contacto contigo :)
-											</div>
 
-											<div id="mail-fail" class="error">
-											Ups! Hubo un error.
-											</div>
 
-											<div id="cf-submit">
-												<input type="submit" id="Enviar" class="btn btn-transparent" value="Submit">
-											</div>
 
-										</form>
-									</div>
+														<div id="mail-success" class="success">
+															Thank you. The Mailman is on His Way :)
+														</div>
+
+														<div id="mail-fail" class="error">
+															Sorry, don't know what happened. Try later :(
+														</div>
+
+														<div id="cf-submit">
+															<input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+														</div>
+
+													</form>
+												</div>
 
 					</div>
 		<footer id="footer" class="bg-one">
@@ -266,6 +278,11 @@
 		<script src="js/grid.js"></script>
 		<!-- Custom js -->
 		<script src="js/custom.js"></script>
+
+
+
+
+
 
     </body>
 </html>
