@@ -1,8 +1,9 @@
 es:
   hello: "¡Hola!"
   Contacto:
-    contact: "Contacto"
-    contact_us: "Contácta con nosotros"
+    Contacto: "Contacto"
+    contact: "Contacta"
+    us: "con nosotros"
     find: "¿Cómo encontrarnos?"
     easy: "Te lo ponemos fácil, tres maneras para charlar con nosotros."
   Home:
@@ -38,7 +39,7 @@ es:
     Producto10: "Sorprende con papel de semillas"
     Producto11: "Haz florecer tus mensajes"
     Producto12: "Sobres de papel con semillas"
-  Nuestra Historia:
+  Nuestra-Historia:
     Historia: "Historia"
     Titulo1: "HASTA EL ÁRBOL MÁS ALTO FUÉ UNA SEMILLA"
     Parrafo1: "La semilla se plantó en la universidad, donde nos conocimos los 5 jóvenes protagonistas de esta historia: Carlos, Gonzalo, Francisco, Gloria y Gala. Los cinco compartíamos una misma inquietud: Lanzarnos a la aventura del emprendimiento para conseguir un mundo mejor. O sea, no nos interesaba emprender simplemente para ganar dinero. Ni queríamos contribuir al modelo consumista que nos rodea: el usar y tirar. Tampoco veíamos mucho valor en buena parte de las APPs y otras tecnologías tan de moda en el panorama emprendedor del momento."

@@ -2,7 +2,7 @@ en:
   hello: "Hello!"
   Contacto:
     contact: "Contact"
-    contact_us: "Contact Us"
+    us: "Us"
     find: "Where are we?"
     easy: "We do it easy. There are three ways to comtact us."
   Home:
@@ -24,7 +24,7 @@ en:
     life: "New lives"
     hello: "Hello!"
   Catalogo:
-    catalogo: "Catalog"
+    Catalogo: "Catalog"
     nuestros: "Our"
     productos: "products"
     Producto1: "Business cards"
@@ -39,15 +39,16 @@ en:
     Producto10: "Surprise with sheedo"
     Producto11: "Let your massage blossom"
     Producto12: "Sheedo envelopes"
-  Nuestra Historia:
-    Historia: "Our Story"
-    Titulo1:
-    Parrafo1:
-    Titulo2:
-    Parrafo2:
-    Titulo3:
-    Parrafo3:
-    Titulo4:
-    Parrafo4:
-    Titulo5:
-    Parrafo5:
+  Nuestra-Historia:
+    Nuestra: "Our"
+    Historia: "Story"
+    Titulo1: "EVEN THE TALLEST TREE WAS ONCE A SEED"
+    Parrafo1: "The seed was planted at the university, where the team met: Gloria, Gala, Gonzalo, Fran y Carlos. The five of us shared a common vision: to start a business to improve our world. Money wasn’t our focus, which just makes our economic system build throwaway products. We didn’t want to build an app or other IT project that is so on demand nowadays either."
+    Titulo2: "A TRIP THAT CHANGED EVERYTHING"
+    Parrafo2: "On a trip to Silicon Valley, we got to know the makers movement. The makers are those who see technology from another perspective, they go back to our roots and create things with their own hands. Those items that acquire a unique touch. Have you ever felt the pleasure of molding a vessel? Have you ever enjoyed baking your own bread? Finding this simple pleasures is what gave us the key."
+    Titulo3: "HOW WAS THE IDEA BORN?"
+    Parrafo3: "Coming back to Spain, we thought about founding a espadrilles brand, a local and artisanal product. Our goal was to create a unique product including, among other elements, something special for the packaging. Something with paper sounded cool but we needed more, and that’s how we came up with the idea: seeds paper. We contacted Antoni Sardá, a paper expert with over 25 years of experience in this field. He elaborates the paper in a small mill in Spain. Due to business and health problems, he had to stop the activity in 2013. But it’s in 2014 when we come to action and propose him to open again. Our passion for the paper grew to the point in which we forgot about the espadrilles and focused only in this marvelous product."
+    Titulo4: "AN ALIVE PAPER"
+    Parrafo4: "Since that moment, we started our entrepreneurial adventure that is now called Sheedo. Sheedo is not just a seeds paper, it’s much more. It is an exclusive paper, handmade by experts. Every sheet is different, and that’s what makes the experience unique, giving as well the opportunity to create life to every individual that receives a piece of Sheedo. It unites people with people and people with the planet, making messages transmit in a different way, helping them blossom, transforming into long lasting moments."
+    Titulo5: "OUR VISION"
+    Parrafo5: "We bet for the important things in life: people, planet and life."
