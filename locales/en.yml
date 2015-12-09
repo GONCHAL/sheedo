@@ -25,7 +25,8 @@ en:
     hello: "Hello!"
   Catalogo:
     catalogo: "Catalog"
-    nuestros-productos: "Our products"
+    nuestros: "Our"
+    productos: "products"
     Producto1: "Business cards"
     Producto2: "Seeds papaer"
     Producto3: "All sizes"

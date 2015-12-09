@@ -24,7 +24,8 @@ es:
     life: "Vidas creadas"
   Catalogo:
     Catalogo: "Catálogo"
-    nuestros-productos: "Nuestros productos"
+    nuestros: "nuestros"
+    productos: "productos"
     Producto1: "Tarjetas de visita"
     Producto2: "Papel con semillas"
     Producto3: "Todos los tamaños"
