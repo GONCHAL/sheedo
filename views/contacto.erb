@@ -20,21 +20,21 @@
 		<!-- CSS
 		================================================== -->
 		<!-- Fontawesome Icon font -->
-        <link rel="stylesheet" href="/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
 		<!-- bootstrap.min css -->
-        <link rel="stylesheet" href="/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
 		<!-- Animate.css -->
-        <link rel="stylesheet" href="/animate.css">
+        <link rel="stylesheet" href="/css/animate.css">
 		<!-- Owl Carousel -->
-        <link rel="stylesheet" href="/owl.carousel.css">
+        <link rel="stylesheet" href="/css/owl.carousel.css">
 		<!-- Grid Component css -->
-        <link rel="stylesheet" href="/component.css">
+        <link rel="stylesheet" href="/css/component.css">
 		<!-- Slit Slider css -->
-        <link rel="stylesheet" href="/slit-slider.css">
+        <link rel="stylesheet" href="/css/slit-slider.css">
 		<!-- Main Stylesheet -->
-        <link rel="stylesheet" href="/main.css">
+        <link rel="stylesheet" href="/css/main.css">
 		<!-- Media Queries -->
-        <link rel="stylesheet" href="/media-queries.css">
+        <link rel="stylesheet" href="/css/media-queries.css">
 
 		<!--
 		Google Font
@@ -88,10 +88,10 @@
 				<!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="Navigation">
                     <ul id="nav" class="nav navbar-nav">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/historia">Historia</a></li>
-                        <li><a href="/catalogo">Catalogo</a></li>
-                        <li  class="current"><a href="#contact-us">Contacto</a></li>
+											<li><a href="/"><%=I18n.t("Home.home")%></a></li>
+											<li class="current"><a href="#body"><%=I18n.t("Nuestra-Historia.Historia")%></a></li>
+											<li><a href="/catalogo"><%=I18n.t("Catalogo.Catalogo")%></a></li>
+											<li><a href="/contacto"><%=I18n.t("Contacto.contact")%></a></li>
                     </ul>
                 </nav>
 				<!-- /main nav -->
@@ -110,7 +110,7 @@
 
 					<!-- section title -->
 					<div class="title text-center wow fadeIn" data-wow-duration="500ms">
-						<h2>Contácta <span class="color">con nosotros</span></h2>
+						<h2><%=I18n.t("Contacto.contact")%> <span class="color"><%=I18n.t("Contacto.us")%></span></h2>
 						<div class="border"></div>
 					</div>
 					<!-- /section title -->
@@ -118,8 +118,8 @@
 					<!-- Contact Details -->
 					<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
 
-						<h3>Como encontrarnos</h3>
-						<p>Te lo ponemos fácil, tres maneras para charlar con nosotros</p>
+						<h3><%=I18n.t("Contacto.find")%></h3>
+						<p><%=I18n.t("Contacto.easy")%></p>
 
 						<div class="contact-details">
 							<div class="con-info clearfix">
