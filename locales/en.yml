@@ -1,48 +1,52 @@
 en:
   hello: "Hello!"
-  contact: "Contact"
-  contact_us: "Contact Us"
-  find: "Where are we?"
-  easy: "We do it easy. There are three ways to comtact us."
-  home: "Home"
-  paper: "An alive paper"
-  use: "Use it and Plant it"
-  start: "¡Start!"
-  what: "What is Sheedo?"
-  organic: "Organic"
-  organic1: "Our paper is made out of recycled cotton fiber. So, it's biodegradable and we don't use chemicals for its whitening."
-  astisan: "Artisan"
-  artisan1: "We are commited to artisans and their high quality handcrafted labor; producing our paper in a local windmill."
-  seeds: "Seeds"
-  seeds1: "Sheedo contains seeds in its comosition, so after its use, you have the chance to give the paper a second life. It's a way to close consumption circle.
-  Consume and create, it's just that easy."
-  how: "How does it work?"
-  saved: "Saved trees"
-  cotton: "Kg of reused cotton"
-  life: "New lives"
-  hello: "Hello!"
-Catalogo: Catalog
-  nuestros-productos: Our products
-  Producto1: Business cards
-  Producto2: Seeds papaer
-  Producto3: All sizes
-  Producto4: Wedding cards
-  Producto5: Labels
-  Producto6: Turn your packaging into an experience
-  Producto7: Green Marketing
-  Producto8: Solutions for all businesses
-  Producto9: Ecological and original
-  Producto10: Surprise with sheedo
-  Producto11: Let your massage blossom
-  Producto12: Sheedo envelopes
-Nuestra Historia: Our Story
-  Titulo1:
-  Parrafo1:
-  Titulo2:
-  Parrafo2:
-  Titulo3:
-  Parrafo3:
-  Titulo4:
-  Parrafo4:
-  Titulo5:
-  Parrafo5:
+  Contacto:
+    contact: "Contact"
+    contact_us: "Contact Us"
+    find: "Where are we?"
+    easy: "We do it easy. There are three ways to comtact us."
+  Home:
+    home: "Home"
+    paper: "An alive paper"
+    use: "Use it and Plant it"
+    start: "¡Start!"
+    what: "What is Sheedo?"
+    organic: "Organic"
+    organic1: "Our paper is made out of recycled cotton fiber. So, it's biodegradable and we don't use chemicals for its whitening."
+    astisan: "Artisan"
+    artisan1: "We are commited to artisans and their high quality handcrafted labor; producing our paper in a local windmill."
+    seeds: "Seeds"
+    seeds1: "Sheedo contains seeds in its comosition, so after its use, you have the chance to give the paper a second life. It's a way to close consumption circle.
+    Consume and create, it's just that easy."
+    how: "How does it work?"
+    saved: "Saved trees"
+    cotton: "Kg of reused cotton"
+    life: "New lives"
+    hello: "Hello!"
+  Catalogo:
+    catalogo: "Catalog"
+    nuestros-productos: "Our products"
+    Producto1: "Business cards"
+    Producto2: "Seeds papaer"
+    Producto3: "All sizes"
+    Producto4: "Wedding cards"
+    Producto5: "Labels"
+    Producto6: "Turn your packaging into an experience"
+    Producto7: "Green Marketing"
+    Producto8: "Solutions for all businesses"
+    Producto9: "Ecological and original"
+    Producto10: "Surprise with sheedo"
+    Producto11: "Let your massage blossom"
+    Producto12: "Sheedo envelopes"
+  Nuestra Historia:
+    Historia: "Our Story"
+    Titulo1:
+    Parrafo1:
+    Titulo2:
+    Parrafo2:
+    Titulo3:
+    Parrafo3:
+    Titulo4:
+    Parrafo4:
+    Titulo5:
+    Parrafo5:
