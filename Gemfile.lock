@@ -41,7 +41,7 @@ DEPENDENCIES
   pony
   rack-contrib
   rack-flash3
-  sinatra
+  sinatra (= 1.4.6)
   sinatra-contrib
 
 BUNDLED WITH
