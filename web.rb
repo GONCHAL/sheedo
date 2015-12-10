@@ -51,7 +51,7 @@ post"/send" do
 end
 
 def send_mail
-  Pony.mail(to:      "infosheedo@gmail.com",
+  Pony.mail(to:      ENV["email"],
             from:    params[:email],
             subject: params[:subject],
             via:     :smtp,
@@ -60,8 +60,8 @@ def send_mail
               address:              "smtp.gmail.com",
               port:                 587,
               enable_starttls_auto: true,
-              user_name:            "infosheedo@gmail.com",
-              password:             "penguinsmadrid1995",
+              user_name:            ENV["email"],
+              password:             ENV["password"],
               authentication:       "login"
             })
 end
