@@ -10,6 +10,7 @@ configure do
   I18n::Backend::Simple.send(:include,I18n::Backend::Fallbacks)
   I18n.load_path=Dir[File.join(settings.root,"locales","*.yml")]
   I18n.backend.load_translations
+  I18n.enforce_available_locales = false
 end
 
 enable :sessions
@@ -17,11 +18,8 @@ use Rack::Flash
 use Rack::Locale
 
 before do
-  if env["rack.locale"]=="en"
-    I18n.locale="en"
-  else
-    I18n.locale="es"
-  end
+  locale = env["rack.locale"].scan(/^[a-z]{2}/).first
+  I18n.locale = (locale == "en") ? "en" : "es"
 end
 
 get "/" do
