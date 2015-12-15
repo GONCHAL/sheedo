@@ -5,6 +5,7 @@ require "rack-flash"
 require "rack/contrib"
 require "i18n"
 require "i18n/backend/fallbacks"
+require "./env" if File.exists?("env.rb")
 
 configure do
   I18n::Backend::Simple.send(:include,I18n::Backend::Fallbacks)
@@ -58,8 +59,8 @@ def send_mail
               address:              "smtp.gmail.com",
               port:                 587,
               enable_starttls_auto: true,
-              user_name:            ENV["email"],
-              password:             ENV["password"],
+              user_name:            ENV["EMAIL"],
+              password:             ENV["PASSWORD"],
               authentication:       "login"
             })
 end
